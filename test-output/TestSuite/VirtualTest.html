@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>TestNG:  VirtualTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>VirtualTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 01 20:51:13 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5347 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.virtual.report.TestScript.getSpaceXApiLaunchLatest()'><b>getSpaceXApiLaunchLatest</b><br>Test class: com.virtual.report.TestScript<br>Test method: get SpaceX Api Launch Latest details<br/>
+<a href="#Output-948650013" onClick='toggleBox("Output-948650013", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-948650013" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-948650013">
+Response of API: {"fairings":{"reused":true,"recovery_attempt":true,"recovered":true,"ships":["5ea6ed2e080df4000697c909","5ea6ed2f080df4000697c90c"]},"links":{"patch":{"small":"https://imgur.com/BrW201S.png","large":"https://imgur.com/573IfGk.png"},"reddit":{"campaign":"https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/","launch":"https://www.reddit.com/r/spacex/comments/nkxg4s/rspacex_starlink28_launch_discussion_and_updates/","media":null,"recovery":"https://www.reddit.com/r/spacex/comments/k2ts1q/rspacex_fleet_updates_discussion_thread/"},"flickr":{"small":[],"original":[]},"presskit":null,"webcast":"https://youtu.be/xRu-ekesDyY","youtube_id":"xRu-ekesDyY","article":null,"wikipedia":"https://en.wikipedia.org/wiki/Starlink"},"static_fire_date_utc":null,"static_fire_date_unix":null,"tbd":false,"net":false,"window":null,"rocket":"5e9d0d95eda69973a809d1ec","success":true,"details":"This mission launches the 28th batch of operational Starlink satellites, which were version 1.0, from SLC-40. It was the 29th Starlink launch overall. The satellites plan to be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude. The booster is expected to land on ASDS JRTI.","crew":[],"ships":["5ea6ed30080df4000697c913","5ea6ed2f080df4000697c90c","5ee68c683c228f36bd5809b5","5ea6ed2f080df4000697c90b","5ea6ed2e080df4000697c909"],"capsules":[],"payloads":["6079bd679a06446e8c61bf7d"],"launchpad":"5e9e4501f509094ba4566f84","auto_update":true,"launch_library_id":"fb25ecf0-fb51-4b5e-b678-105f6ba4c06e","failures":[],"flight_number":128,"name":"Starlink-28 (v1.0)","date_utc":"2021-05-26T18:59:00.000Z","date_unix":1622055540,"date_local":"2021-05-26T14:59:00-04:00","date_precision":"hour","upcoming":false,"cores":[{"core":"5f57c54a0622a633027900a1","flight":2,"gridfins":true,"legs":true,"reused":true,"landing_attempt":true,"landing_success":true,"landing_type":"ASDS","landpad":"5e9e3033383ecbb9e534e7cc"}],"id":"6079bd399a06446e8c61bf77"}<br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.virtual.report.TestScript@eafc191</td></tr>
+</table><p>
+</body>
+</html>
