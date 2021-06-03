@@ -28,7 +28,7 @@ public class TestScript extends TestBase {
 
 	@AfterSuite
 	public void clean() {
-		driver.close();
+		driver.quit();
 	}
 
 	@Test(enabled=true,description="get SpaceX Api Launch Latest details")

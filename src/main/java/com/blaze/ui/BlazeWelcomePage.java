@@ -14,14 +14,13 @@ public class BlazeWelcomePage extends TestBase {
 		
 	}
 	public void HomePage() {
-		WebElement submit =driver.findElement(By.xpath("//*@type='submit'"));
+		WebElement submit =driver.findElement(By.xpath("//input[@type='submit']"));
 		UiUtil.waitForElement(driver,submit);
 		if(submit.isEnabled()) { 
 	         System.out.println("Test 1 Pass"); 
 	      } else { 
 	         System.out.println("Test 1 Fail"); 
-	      } 
-	      driver.close(); 
+	      } 	       
 	}
 	
 }
