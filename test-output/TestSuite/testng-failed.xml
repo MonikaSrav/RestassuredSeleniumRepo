@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="VirtualTest(failed)">
+    <classes>
+      <class name="com.virtual.report.TestScript">
+        <methods>
+          <include name="blazeUIHomePage"/>
+          <include name="clean"/>
+          <include name="start"/>
+        </methods>
+      </class> <!-- com.virtual.report.TestScript -->
+    </classes>
+  </test> <!-- VirtualTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
