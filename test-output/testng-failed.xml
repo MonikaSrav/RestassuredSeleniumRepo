@@ -5,9 +5,8 @@
     <classes>
       <class name="com.virtual.report.TestScript">
         <methods>
-          <include name="blazeUIHomePage"/>
-          <include name="getSpaceXApiLaunchLatest"/>
           <include name="clean"/>
+          <include name="blazeUIEnd2EndFlow"/>
           <include name="start"/>
         </methods>
       </class> <!-- com.virtual.report.TestScript -->
