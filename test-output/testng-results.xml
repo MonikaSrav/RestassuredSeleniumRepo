@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Response of API: {"fairings":{"reused":true,"recovery_attempt":true,"recovered":true,"ships":["5ea6ed2e080df4000697c909","5ea6ed2f080df4000697c90c"]},"links":{"patch":{"small":"https://imgur.com/BrW201S.png","large":"https://imgur.com/573IfGk.png"},"reddit":{"campaign":"https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/","launch":"https://www.reddit.com/r/spacex/comments/nkxg4s/rspacex_starlink28_launch_discussion_and_updates/","media":null,"recovery":"https://www.reddit.com/r/spacex/comments/k2ts1q/rspacex_fleet_updates_discussion_thread/"},"flickr":{"small":[],"original":[]},"presskit":null,"webcast":"https://youtu.be/xRu-ekesDyY","youtube_id":"xRu-ekesDyY","article":null,"wikipedia":"https://en.wikipedia.org/wiki/Starlink"},"static_fire_date_utc":null,"static_fire_date_unix":null,"tbd":false,"net":false,"window":null,"rocket":"5e9d0d95eda69973a809d1ec","success":true,"details":"This mission launches the 28th batch of operational Starlink satellites, which were version 1.0, from SLC-40. It was the 29th Starlink launch overall. The satellites plan to be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude. The booster is expected to land on ASDS JRTI.","crew":[],"ships":["5ea6ed30080df4000697c913","5ea6ed2f080df4000697c90c","5ee68c683c228f36bd5809b5","5ea6ed2f080df4000697c90b","5ea6ed2e080df4000697c909"],"capsules":[],"payloads":["6079bd679a06446e8c61bf7d"],"launchpad":"5e9e4501f509094ba4566f84","auto_update":true,"launch_library_id":"fb25ecf0-fb51-4b5e-b678-105f6ba4c06e","failures":[],"flight_number":128,"name":"Starlink-28 (v1.0)","date_utc":"2021-05-26T18:59:00.000Z","date_unix":1622055540,"date_local":"2021-05-26T14:59:00-04:00","date_precision":"hour","upcoming":false,"cores":[{"core":"5f57c54a0622a633027900a1","flight":2,"gridfins":true,"legs":true,"reused":true,"landing_attempt":true,"landing_success":true,"landing_type":"ASDS","landpad":"5e9e3033383ecbb9e534e7cc"}],"id":"6079bd399a06446e8c61bf77"}]]>
+    </line>
+    <line>
+      <![CDATA[Response of status: 200]]>
+    </line>
+    <line>
+      <![CDATA[Verify: flightNo 128]]>
+    </line>
+    <line>
+      <![CDATA[Verify: flightName Starlink-28 (v1.0)]]>
+    </line>
+    <line>
+      <![CDATA[Verify: flightsuccess true]]>
+    </line>
+    <line>
+      <![CDATA[SpaceX API response details are received128]]>
+    </line>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="5370" started-at="2021-06-03T15:47:22 IST" finished-at="2021-06-03T15:47:27 IST">
+    <groups>
+    </groups>
+    <test name="VirtualTest" duration-ms="5370" started-at="2021-06-03T15:47:22 IST" finished-at="2021-06-03T15:47:27 IST">
+      <class name="com.virtual.report.TestScript">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.virtual.report.TestScript@eafc191]" name="start" is-config="true" duration-ms="10938" started-at="2021-06-03T15:47:11 IST" finished-at="2021-06-03T15:47:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="FAIL" signature="blazeUIHomePage()[pri:0, instance:com.virtual.report.TestScript@eafc191]" name="blazeUIHomePage" duration-ms="78" started-at="2021-06-03T15:47:22 IST" description="Blaze UI Home Page" finished-at="2021-06-03T15:47:22 IST">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //*@type='submit' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*@type='submit'' is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ALEXA', ip: '192.168.255.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56902}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e16bc6c46e8f64fb6174c23582cd888
+*** Element info: {Using=xpath, value=//*@type='submit'}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*@type='submit' because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*@type='submit'' is not a valid XPath expression.
+  (Session info: chrome=91.0.4472.77)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'ALEXA', ip: '192.168.255.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.77, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:56902}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2e16bc6c46e8f64fb6174c23582cd888
+*** Element info: {Using=xpath, value=//*@type='submit'}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:319)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:421)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:311)
+at com.blaze.ui.BlazeWelcomePage.HomePage(BlazeWelcomePage.java:17)
+at com.virtual.report.TestScript.blazeUIHomePage(TestScript.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blazeUIHomePage -->
+        <test-method status="PASS" signature="getSpaceXApiLaunchLatest()[pri:0, instance:com.virtual.report.TestScript@eafc191]" name="getSpaceXApiLaunchLatest" duration-ms="5217" started-at="2021-06-03T15:47:22 IST" description="get SpaceX Api Launch Latest details" finished-at="2021-06-03T15:47:27 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Response of API: {"fairings":{"reused":true,"recovery_attempt":true,"recovered":true,"ships":["5ea6ed2e080df4000697c909","5ea6ed2f080df4000697c90c"]},"links":{"patch":{"small":"https://imgur.com/BrW201S.png","large":"https://imgur.com/573IfGk.png"},"reddit":{"campaign":"https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/","launch":"https://www.reddit.com/r/spacex/comments/nkxg4s/rspacex_starlink28_launch_discussion_and_updates/","media":null,"recovery":"https://www.reddit.com/r/spacex/comments/k2ts1q/rspacex_fleet_updates_discussion_thread/"},"flickr":{"small":[],"original":[]},"presskit":null,"webcast":"https://youtu.be/xRu-ekesDyY","youtube_id":"xRu-ekesDyY","article":null,"wikipedia":"https://en.wikipedia.org/wiki/Starlink"},"static_fire_date_utc":null,"static_fire_date_unix":null,"tbd":false,"net":false,"window":null,"rocket":"5e9d0d95eda69973a809d1ec","success":true,"details":"This mission launches the 28th batch of operational Starlink satellites, which were version 1.0, from SLC-40. It was the 29th Starlink launch overall. The satellites plan to be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude. The booster is expected to land on ASDS JRTI.","crew":[],"ships":["5ea6ed30080df4000697c913","5ea6ed2f080df4000697c90c","5ee68c683c228f36bd5809b5","5ea6ed2f080df4000697c90b","5ea6ed2e080df4000697c909"],"capsules":[],"payloads":["6079bd679a06446e8c61bf7d"],"launchpad":"5e9e4501f509094ba4566f84","auto_update":true,"launch_library_id":"fb25ecf0-fb51-4b5e-b678-105f6ba4c06e","failures":[],"flight_number":128,"name":"Starlink-28 (v1.0)","date_utc":"2021-05-26T18:59:00.000Z","date_unix":1622055540,"date_local":"2021-05-26T14:59:00-04:00","date_precision":"hour","upcoming":false,"cores":[{"core":"5f57c54a0622a633027900a1","flight":2,"gridfins":true,"legs":true,"reused":true,"landing_attempt":true,"landing_success":true,"landing_type":"ASDS","landpad":"5e9e3033383ecbb9e534e7cc"}],"id":"6079bd399a06446e8c61bf77"}]]>
+            </line>
+            <line>
+              <![CDATA[Response of status: 200]]>
+            </line>
+            <line>
+              <![CDATA[Verify: flightNo 128]]>
+            </line>
+            <line>
+              <![CDATA[Verify: flightName Starlink-28 (v1.0)]]>
+            </line>
+            <line>
+              <![CDATA[Verify: flightsuccess true]]>
+            </line>
+            <line>
+              <![CDATA[SpaceX API response details are received128]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getSpaceXApiLaunchLatest -->
+        <test-method status="PASS" signature="clean()[pri:0, instance:com.virtual.report.TestScript@eafc191]" name="clean" is-config="true" duration-ms="243" started-at="2021-06-03T15:47:27 IST" finished-at="2021-06-03T15:47:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clean -->
+      </class> <!-- com.virtual.report.TestScript -->
+    </test> <!-- VirtualTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

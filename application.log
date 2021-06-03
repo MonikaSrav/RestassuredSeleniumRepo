@@ -1,0 +1,89 @@
+2021-06-03 15:47:16,922  INFO [main] TestBase:54 - chrome browser is opened
+2021-06-03 15:47:20,704  INFO [main] TestBase:60 - Url is intiated
+2021-06-03 15:47:23,957 DEBUG [main] BasicClientConnectionManager:161 - Get connection for route {s}->https://api.spacexdata.com:443
+2021-06-03 15:47:23,979 DEBUG [main] DefaultClientConnectionOperator:177 - Connecting to api.spacexdata.com:443
+2021-06-03 15:47:25,180 DEBUG [main] RequestAddCookies:123 - CookieSpec selected: ignoreCookies
+2021-06-03 15:47:25,185 DEBUG [main] RequestAuthCache:77 - Auth cache not set in the context
+2021-06-03 15:47:25,186 DEBUG [main] RequestTargetAuthentication:80 - Target auth state: UNCHALLENGED
+2021-06-03 15:47:25,189 DEBUG [main] RequestProxyAuthentication:89 - Proxy auth state: UNCHALLENGED
+2021-06-03 15:47:25,190 DEBUG [main] DefaultHttpClient:682 - Attempt 1 to execute request
+2021-06-03 15:47:25,192 DEBUG [main] DefaultClientConnection:274 - Sending request: GET /v4/launches/latest HTTP/1.1
+2021-06-03 15:47:25,194 DEBUG [main] wire:73 -  >> "GET /v4/launches/latest HTTP/1.1[\r][\n]"
+2021-06-03 15:47:25,197 DEBUG [main] wire:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2021-06-03 15:47:25,198 DEBUG [main] wire:73 -  >> "Accept: application/json[\r][\n]"
+2021-06-03 15:47:25,199 DEBUG [main] wire:73 -  >> "Host: api.spacexdata.com[\r][\n]"
+2021-06-03 15:47:25,199 DEBUG [main] wire:73 -  >> "Connection: Keep-Alive[\r][\n]"
+2021-06-03 15:47:25,200 DEBUG [main] wire:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_261)[\r][\n]"
+2021-06-03 15:47:25,202 DEBUG [main] wire:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2021-06-03 15:47:25,203 DEBUG [main] wire:73 -  >> "[\r][\n]"
+2021-06-03 15:47:25,204 DEBUG [main] headers:278 - >> GET /v4/launches/latest HTTP/1.1
+2021-06-03 15:47:25,205 DEBUG [main] headers:281 - >> Content-Type: application/json; charset=UTF-8
+2021-06-03 15:47:25,205 DEBUG [main] headers:281 - >> Accept: application/json
+2021-06-03 15:47:25,206 DEBUG [main] headers:281 - >> Host: api.spacexdata.com
+2021-06-03 15:47:25,206 DEBUG [main] headers:281 - >> Connection: Keep-Alive
+2021-06-03 15:47:25,207 DEBUG [main] headers:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_261)
+2021-06-03 15:47:25,208 DEBUG [main] headers:281 - >> Accept-Encoding: gzip,deflate
+2021-06-03 15:47:25,462 DEBUG [main] wire:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+2021-06-03 15:47:25,467 DEBUG [main] wire:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2021-06-03 15:47:25,468 DEBUG [main] wire:73 -  << "Access-Control-Expose-Headers: spacex-api-cache,spacex-api-response-time[\r][\n]"
+2021-06-03 15:47:25,468 DEBUG [main] wire:73 -  << "Alt-Svc: h3-29=":443"; ma=2592000,h3-34=":443"; ma=2592000,h3-32=":443"; ma=2592000[\r][\n]"
+2021-06-03 15:47:25,469 DEBUG [main] wire:73 -  << "Cache-Control: max-age=20[\r][\n]"
+2021-06-03 15:47:25,470 DEBUG [main] wire:73 -  << "Content-Encoding: gzip[\r][\n]"
+2021-06-03 15:47:25,470 DEBUG [main] wire:73 -  << "Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests[\r][\n]"
+2021-06-03 15:47:25,471 DEBUG [main] wire:73 -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2021-06-03 15:47:25,472 DEBUG [main] wire:73 -  << "Date: Thu, 03 Jun 2021 10:17:22 GMT[\r][\n]"
+2021-06-03 15:47:25,472 DEBUG [main] wire:73 -  << "Etag: "7df-CjT0j/oEEmLholtFTi8CTJweYiM"[\r][\n]"
+2021-06-03 15:47:25,473 DEBUG [main] wire:73 -  << "Expect-Ct: max-age=0[\r][\n]"
+2021-06-03 15:47:25,473 DEBUG [main] wire:73 -  << "Referrer-Policy: no-referrer[\r][\n]"
+2021-06-03 15:47:25,474 DEBUG [main] wire:73 -  << "Server: Caddy[\r][\n]"
+2021-06-03 15:47:25,474 DEBUG [main] wire:73 -  << "Spacex-Api-Cache: HIT[\r][\n]"
+2021-06-03 15:47:25,475 DEBUG [main] wire:73 -  << "Spacex-Api-Cache-Online: true[\r][\n]"
+2021-06-03 15:47:25,476 DEBUG [main] wire:73 -  << "Spacex-Api-Response-Time: 0ms[\r][\n]"
+2021-06-03 15:47:25,477 DEBUG [main] wire:73 -  << "Strict-Transport-Security: max-age=15552000; includeSubDomains[\r][\n]"
+2021-06-03 15:47:25,477 DEBUG [main] wire:73 -  << "Vary: Origin[\r][\n]"
+2021-06-03 15:47:25,478 DEBUG [main] wire:73 -  << "Vary: Accept-Encoding[\r][\n]"
+2021-06-03 15:47:25,478 DEBUG [main] wire:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2021-06-03 15:47:25,479 DEBUG [main] wire:73 -  << "X-Dns-Prefetch-Control: off[\r][\n]"
+2021-06-03 15:47:25,480 DEBUG [main] wire:73 -  << "X-Download-Options: noopen[\r][\n]"
+2021-06-03 15:47:25,481 DEBUG [main] wire:73 -  << "X-Frame-Options: SAMEORIGIN[\r][\n]"
+2021-06-03 15:47:25,482 DEBUG [main] wire:73 -  << "X-Permitted-Cross-Domain-Policies: none[\r][\n]"
+2021-06-03 15:47:25,482 DEBUG [main] wire:73 -  << "X-Xss-Protection: 0[\r][\n]"
+2021-06-03 15:47:25,483 DEBUG [main] wire:73 -  << "Content-Length: 1018[\r][\n]"
+2021-06-03 15:47:25,483 DEBUG [main] wire:73 -  << "[\r][\n]"
+2021-06-03 15:47:25,485 DEBUG [main] DefaultClientConnection:259 - Receiving response: HTTP/1.1 200 OK
+2021-06-03 15:47:25,486 DEBUG [main] headers:262 - << HTTP/1.1 200 OK
+2021-06-03 15:47:25,487 DEBUG [main] headers:265 - << Access-Control-Allow-Origin: *
+2021-06-03 15:47:25,487 DEBUG [main] headers:265 - << Access-Control-Expose-Headers: spacex-api-cache,spacex-api-response-time
+2021-06-03 15:47:25,488 DEBUG [main] headers:265 - << Alt-Svc: h3-29=":443"; ma=2592000,h3-34=":443"; ma=2592000,h3-32=":443"; ma=2592000
+2021-06-03 15:47:25,488 DEBUG [main] headers:265 - << Cache-Control: max-age=20
+2021-06-03 15:47:25,489 DEBUG [main] headers:265 - << Content-Encoding: gzip
+2021-06-03 15:47:25,489 DEBUG [main] headers:265 - << Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+2021-06-03 15:47:25,490 DEBUG [main] headers:265 - << Content-Type: application/json; charset=utf-8
+2021-06-03 15:47:25,490 DEBUG [main] headers:265 - << Date: Thu, 03 Jun 2021 10:17:22 GMT
+2021-06-03 15:47:25,491 DEBUG [main] headers:265 - << Etag: "7df-CjT0j/oEEmLholtFTi8CTJweYiM"
+2021-06-03 15:47:25,491 DEBUG [main] headers:265 - << Expect-Ct: max-age=0
+2021-06-03 15:47:25,492 DEBUG [main] headers:265 - << Referrer-Policy: no-referrer
+2021-06-03 15:47:25,492 DEBUG [main] headers:265 - << Server: Caddy
+2021-06-03 15:47:25,493 DEBUG [main] headers:265 - << Spacex-Api-Cache: HIT
+2021-06-03 15:47:25,493 DEBUG [main] headers:265 - << Spacex-Api-Cache-Online: true
+2021-06-03 15:47:25,494 DEBUG [main] headers:265 - << Spacex-Api-Response-Time: 0ms
+2021-06-03 15:47:25,494 DEBUG [main] headers:265 - << Strict-Transport-Security: max-age=15552000; includeSubDomains
+2021-06-03 15:47:25,495 DEBUG [main] headers:265 - << Vary: Origin
+2021-06-03 15:47:25,495 DEBUG [main] headers:265 - << Vary: Accept-Encoding
+2021-06-03 15:47:25,496 DEBUG [main] headers:265 - << X-Content-Type-Options: nosniff
+2021-06-03 15:47:25,496 DEBUG [main] headers:265 - << X-Dns-Prefetch-Control: off
+2021-06-03 15:47:25,497 DEBUG [main] headers:265 - << X-Download-Options: noopen
+2021-06-03 15:47:25,498 DEBUG [main] headers:265 - << X-Frame-Options: SAMEORIGIN
+2021-06-03 15:47:25,498 DEBUG [main] headers:265 - << X-Permitted-Cross-Domain-Policies: none
+2021-06-03 15:47:25,499 DEBUG [main] headers:265 - << X-Xss-Protection: 0
+2021-06-03 15:47:25,499 DEBUG [main] headers:265 - << Content-Length: 1018
+2021-06-03 15:47:25,512 DEBUG [main] DefaultHttpClient:509 - Connection can be kept alive indefinitely
+2021-06-03 15:47:25,562 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:545 - Parsing response as: application/json; charset=utf-8
+2021-06-03 15:47:25,565 DEBUG [main] wire:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x9]n[0x88][0x0][0xff][0x94]UK[0x8f][0xe4]4[0x10][0xfe]+V[0x9d]@Jw;[0xcf]Nr[0x3][0x16][0xa1]E[0x9c]vFB[0xb0][0x1a]E[0x8e]]IL;v[0xb0][0x9d][0xc9][0x8c]V[0xf3][0xdf][0x91][0x93]"
+2021-06-03 15:47:25,571 DEBUG [main] wire:73 -  << "I[0xcf]c[0x1][0xc1][0xcd][0xae][0xd7]W[0xe5][0xaa][0xfa][0xfc][0x5]:&[0xad][0xd4][0xbd][0x83][0xfa][0xb]X[0x9c][0x1d][\n]"
+2021-06-03 15:47:25,572 DEBUG [main] wire:73 -  << "[0xa8][0xbd][0x9d]1[0x2][0x8b][0xdc][0xdc][0xa3]}l[0x98][0xf7]8N[0xfe][0x9d][0xfc][0xc5][0xd0][\r]rrP[0x86][0x1c]Y[0x81]"AZR[0xd1]e[0x94][0xd2][0xa2]:[0xf3][0x8a]V[0x10][0xed][0xaa][0xee][0x9d][0x8a][0xc3][0xdd]S[0x4]J[0xea][0xcb][0x9a][0xc0][0xc4]<[0x1f][0xc2][0xc1][0x8d]L)[0xa8]a[0xf0]~r[0xf5][0xe9]$[0xc7]~[0xb6]Gn[0xc6][0xd3][0xf7][0xf6][0xd7][0x84][0xc6]7[0xc7]I[0xf7][0x10][0x81]b[0xb6][0xc7][0xbf][0xb5][0xcb][0xcf][0xe9][0xc7][0xee][0xa7][0xcb]j[0xf7][0x14][0x92][0x16]B[0xfa][0x10][0x9a][0xb3]qb[0xb2][0xd7][0xaf][0xbc][0x96]e9n[0x6]+[0x84]=[0xb9][0x89]q|8q3[0x8e][0xa8][0xbd];[0xfd]1[0xcc][0xe9]Y[0x9e][0x9c]g6[0xe4][0xda][0xf4][0xa8][0xd1]2[0xd5][0x8][0xe9][0xf8][0xec][0x9c]4[0xba]aZ4[0x2]'e[0x1e][0x83]K[0xe3][0x7][0x8b]L[0x9c][0xd6][0x14]g[0x1d][0x8a][0xfa][0xef]h[0xfa][0xf2][0xd0]g[0xee]d[0xb7],[0x9a][0x1d]5)[0x9b]-[0xd6]{[0xd8]y[0x12][0xcc][0xa3][0xb]`#[\n]"
+2021-06-03 15:47:25,574 DEBUG [main] wire:73 -  << "[0xc9][0xa0][0xd6][0xb3]R/[\r][0xfc]?[0xd8][0x97][0xc4][0xbb][0xf8][0xcf]+v[0xa7][0x10][0xfd][0xe][0xf0][0x1a]w[0xaf][0xef])[0x82]NI~[0xb1][0xaf][0xba][0xf6][0xf9].[0x2]ce/5[oO[0x11]L[0x16][0x9d][0xbb][0x84][0x6]l[0xa9]-[0xd8]r[0xe6][0xfc][0xab][0xcc][0x1e][0xcd][0xec][0xe7]c[0x8b][0xa7][0x87]O[0xf3][0x1]/[0xe8]><[0xfe][0x6][0x11][0xac][0xe2][0x16][0x1b])[0xa0][0x86][0xb7]*f[0xbd][0xe4][\n]"
+2021-06-03 15:47:25,575 DEBUG [main] wire:87 -  << "[0xaf]![0xe5]EN[[0xf9][0xd7][0xa0][0xa8][0x8f]W[0xf1][0xd1][0xd8][0xfe][0x14]n[0xa7][0x9b][0xe7][0x7][\r][0xc9];[0xcf][0xbc][0xe4]M'-6[0xa1][0xc8]f[0xf6]|[0x8f][0xf8][0xb5]N[0xcb][0x87]][0xe9][[0x1]u[0xc7][0x94][0xc3][0x8]4[0xfa][0xeb]y[0x91]Z[0x98]e[0xb7][0xb2][0x86]_[0x82][0x12]r[0xac][0x4][0x15]U[0x8e][0x82][0x15]UuNYI+[0x11]#[0x87][0x8][0xdc][0xcc]9:[0xb7]o[0x93]@[0xcf][0xa4]rP[0xc3][0xed] [0x1d][0x19][0xe5][0xfa][0xe0]dk=:[0xe2][0x7]$I[0xe9][0x7][0xd2][0x86]e![0xa6]#fB[0xcb][0xbc]4[0x9a])[0xb2][0xd7]F[0x1c][0xf3][0xa8][0x94][0xf4][0xe8]"[0xb2][0xc][0x92][0xf]dA[0x8b][0xe4][0x1e][0xed][0x1a].>[0xd2][0x88]t[0xd6][0x8c][0xe4][0xe6][0x97][0x1f][0xe][0x19]=[0x92][0x8f][0x9e],[0xec]9|[0xe5][0x87][0x97]H[0x1b]2[0x9]\[0xc0][0x94]:[0x92][0xdb][0x1]_E'[0x93]b[0x9a]xCZ$[0x2][0x95]\[0x99]![0xdc][0x95]Y[0xc8][0x8f][0xcc][0xfa][0x81][0x18][0xdb]JO[0x98][0x16]d[0x91]J[0x11]7[0xa1][0x16][0x84][0x91][0xe][0x17][0xb2] ^[0x1c][0x19][0x99][0xc6][0xf9][0x1e][0x3][0xf][0x5]O?[0xa0][0xb4]o[0xaa]b[0xca]K?[0xb][0xdc][0xc0][c[0x9c]GK[0xa4]#[0xf8]0![0xf7][0xcf][0x80][0x1][0xc1]h[0xf2][0xdd][0xcd][0x87][0x1b][0xf2][0xf3][0xa7][0xdb][0x8f]G[0x88][0x80][\[0xc2][0xc]~[0xc5]R)}KEq[0xfa]o,[0x15]TX[0x94][0xbc](S[0x9e]$e[0x97][0x16][0xad][0xc8]KZ[0xb5][0xf9]?{[0xb5]/[0xaa][0xaf][0x19][0xf1].[0x2][0xce]&7+[0xc]9[0xdd]E0[0xb1]Ge[0x98][0x8]7([0xe8][0xb9]jEq[0xae][0x18]-[0xb2][0xac][0xc0][0x92][0x17]q[0xdb][0x9d]E[0xf0][0xda][0xba]1[0xb1][0xb0][0xf]9V[0x98][0xe5]4[0xee]rZ[0xd1]*kY[0x96][0x17]EWf[0x10][0x1][0x9b][0xbd]y[0xde][0xdb]}[0xb0][0x9e][0xc9]C[0xc9][0xd6]2[0xfb][0xb8]mT[0xd7]&9[0xf2][0x8e][0x1e][0xba]6[0x8f][0xf]Y[0x9b][0xe3][0xa1]-[0xce][0xe5]![0xa6]yW[0xb4],[0xe3][0xb4]@[0x88][0xc2]'[0xa1]f[0xbb][0xa7][0xda])[0xd9][0xf][0xbe][0xd1][0xf3][0xd8][0xa2][0x85]:N[0xca][0x8]4[0x1b][0x3][0xf][0xef]CsHJ[0xf2][0xcd]}|[0xa4][0xdf]B[0x4]/{[0x5][0x9]M[0xe2][0x3][0xcd][0xf]Iq[0x1b][0x97]u^[0xd5][0x94][0x1e])[0xa5][0xbf]_[0xad][0xd6][\r][0x8b][0x8b]$[0xa1]y[0x9e]g[0xf4]Y[0xac][0xc][0xf]T[0xf2][0xc6]=[0xdb][0xdc][0xf]4[0xab])[0xdd][0xfd]'[0x8b]\[0x86][0x1][0xf][0xcc]bf[0xb][0x11][0xcc][0x13]7[0xa3][0xd4][0xfd]uC[0xb9][0xd9]*[0xf9][0xb2][0x9e][0xc2]3v[0xf9][0x99][0xe7][0x19][0xa3]E[0x92][0xb0]"Mir[0xae](eq(|-[0x15][0xea]$[0x82][0xde]J[0xd1]I}[0xdd]S[0x85][0xfd][0xf5][0xfc][0xf6][0xe3][0xc][0x83](u[0xff][0xfe][0xdf][0xdc][0xc5][0xef][0xf6]}[0x17][0xfb][0xc7])$[0x13][0xa6]w[0xfd]5[0xb4]xirJ[0xd3]4-S[0xe4]m[a[0x9e]fx[0xe6][0x1c][0x9e][0xee]"X[0x9b][0xb8][0x8d]KZ[0xbd][0x1b][0x97]3<[0xfd]5[0x0]4i[0xe3][0xfd][0xdf][0x7][0x0][0x0]"
+2021-06-03 15:47:25,578 DEBUG [main] RequestSpecificationImpl$RestAssuredHttpBuilder:548 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2021-06-03 15:47:25,695 DEBUG [main] BasicClientConnectionManager:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7551da2a
+2021-06-03 15:47:25,696 DEBUG [main] BasicClientConnectionManager:225 - Connection can be kept alive indefinitely
